@@ -37,6 +37,7 @@ public class BaseClass {
 
 		} else if (browser.equalsIgnoreCase("Edge")) {
 			driver = new EdgeDriver();
+			Sysytem.out.println("Hello");
 
 		}
 
